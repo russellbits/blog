@@ -125,7 +125,7 @@ const Heading = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const user = getUser();
   $$unsubscribe_user = subscribe(user, (value) => $user = value);
   $$unsubscribe_user();
-  return `<nav class="container mt-8 flex justify-between"><a class="unstyled text-xl" href="/"><b>🔥 Blog</b></a>
+  return `<nav class="container mt-8 flex justify-between"><a class="unstyled text-xl" href="/"><h1>🍗 Southern Fried Zen</h1></a>
 
 	<div class="flex items-center gap-4"><ol class="flex space-x-4"><li><a class="unstyled muted" href="/blog">Blog</a></li>
 			<li><a class="unstyled muted" href="/dashboard">Dashboard</a></li>

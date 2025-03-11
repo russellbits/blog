@@ -1,14 +1,14 @@
 <script lang="ts">
-	import { enhance } from '$app/forms'
-	import { getUser } from '@lucia-auth/sveltekit/client'
-	import { LightSwitch } from '@skeletonlabs/skeleton'
+	import { enhance } from '$app/forms';
+	import { getUser } from '@lucia-auth/sveltekit/client';
+	import { LightSwitch } from '@skeletonlabs/skeleton';
 
-	const user = getUser()
+	const user = getUser();
 </script>
 
 <nav class="container mt-8 flex justify-between">
 	<a class="unstyled text-xl" href="/">
-		<b>🔥 Blog</b>
+		<h1>🍗 Southern Fried Zen</h1>
 	</a>
 
 	<div class="flex items-center gap-4">
