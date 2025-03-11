@@ -1,0 +1,54 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/about": [
+		"src/routes/+layout.server.ts"
+	],
+	"/blog": [
+		"src/routes/blog/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/dashboard": [
+		"src/routes/dashboard/+page.server.ts",
+		"src/routes/dashboard/+layout.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/dashboard/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/dashboard/create": [
+		"src/routes/dashboard/create/+page.server.ts",
+		"src/routes/dashboard/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/dashboard/edit/[slug]": [
+		"src/routes/dashboard/edit/[slug]/+page.server.ts",
+		"src/routes/dashboard/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(auth)/login": [
+		"src/routes/(auth)/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(auth)/logout": [
+		"src/routes/(auth)/logout/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/newsletter": [
+		"src/routes/newsletter/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(auth)/register": [
+		"src/routes/(auth)/register/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/rss.xml": [
+		"src/routes/rss.xml/+server.ts"
+	]
+}
