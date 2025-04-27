@@ -20,8 +20,8 @@
 						</a>
 					</h3>
 					<p>{post.description}</p>
-					<p class="mt-4 text-gray-600 dark:text-gray-400">
-						{date(post.createdAt)}
+					<p>
+						<span class="mt-4 text-gray-600 dark:text-gray-400">{date(post.createdAt)}</span>
 					</p>
 				</li>
 			</ol>
